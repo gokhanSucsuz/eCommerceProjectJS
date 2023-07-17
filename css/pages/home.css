@@ -45,4 +45,25 @@
     flex-wrap: wrap;
 }
 
-/*! campaign start */
+/*! campaign end */
+
+/*! blogs start */
+
+.blogs {
+    margin-bottom: 30px;
+}
+
+.blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+@media (max-width:768px) {
+    .blogs .blog-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*! blogs end */
