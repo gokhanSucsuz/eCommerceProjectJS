@@ -49,6 +49,12 @@
     opacity: 0.4;
     background-color: white;
     transition: .2s ease all;
+
+}
+
+.slider-item a {
+    position: relative;
+    z-index: 1;
 }
 
 .slider .slider-buttons button i {
