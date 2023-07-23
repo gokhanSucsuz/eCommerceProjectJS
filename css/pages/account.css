@@ -1,0 +1,68 @@
+.account-login {
+    display: flex;
+
+}
+
+.account-login form {
+    flex-basis: 100%;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+
+}
+
+.account-login-form div,
+.account-register-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-login-form div label,
+.account-register-form div label {
+    display: flex;
+}
+
+.account-login-form div button,
+.account-register-form div button {
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.account-login-form>label,
+.account-register-form>label {
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.account-login-form label :nth-child(1),
+.account-register-form label :nth-child(1) {
+    color: red;
+}
+
+.account-login-form>div,
+.account-register-form>div {
+    margin: 10px 0;
+    row-gap: 10px;
+}
+
+.account-login-form div>a,
+.account-register-form div>a {
+    color: red;
+    font-size: 14px;
+}
+
+.account-register-form p {
+    font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .account-login {
+        flex-wrap: wrap;
+
+    }
+}
