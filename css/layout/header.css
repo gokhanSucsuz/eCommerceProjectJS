@@ -3,6 +3,7 @@
 header {
     border-bottom: 1px solid #dee0ea;
     position: relative;
+
 }
 
 .global-notification {
@@ -271,4 +272,3 @@ header .menu-dropdown-content a:hover {
         font-size: 16px !important;
     }
 }
-
