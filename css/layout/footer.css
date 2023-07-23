@@ -115,6 +115,35 @@
 }
 
 /*! widgets end */
+/*! copyright start */
+.footer-copyright {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright .site-copyright {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.footer-copyright .footer-menu {
+    margin-left: auto;
+}
+
+.footer-copyright .footer-menu-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.footer-copyright .footer-menu-list .list-item:not(:last-child) {
+    border-right: 1px solid #dee0ea;
+    padding-right: 10px;
+}
+
+/*! copyright end */
 
 
 /*! responsive */
@@ -135,5 +164,15 @@
 
     .footer-widgets .brand-info .footer-desc {
         width: unset;
+    }
+
+    .footer-copyright {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    .footer-copyright .footer-menu {
+        margin-left: unset;
     }
 }

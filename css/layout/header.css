@@ -139,6 +139,7 @@ header .menu-dropdown-wrapper {
     opacity: 0;
     visibility: hidden;
     transition: all .2s;
+    z-index: 1;
 }
 
 header .menu-dropdown-content {
@@ -202,7 +203,6 @@ header .menu-dropdown-content a:hover {
 }
 
 .megamenu-wrapper .megamenu-menu-list {
-
     display: flex;
     flex-direction: column;
     row-gap: 2px;
@@ -210,7 +210,6 @@ header .menu-dropdown-content a:hover {
 
 .megamenu-wrapper .megamenu-menu-list a {
     font-size: 14px;
-
 }
 
 .megamenu-wrapper .megamenu-single-title {
